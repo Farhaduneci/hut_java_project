@@ -163,9 +163,11 @@ public class Commands {
     }
 
     private void cat(String fileName) {
+        String path = shell.getCurrentDir() + '/' + fileName;
+
         try (
                 BufferedReader reader = new BufferedReader(
-                    new FileReader(fileName))
+                    new FileReader(path))
             ) {
 
             // Each line of the file will be saved inside

@@ -7,7 +7,8 @@ public enum Help {
     cd("This command changes the working directory"),
     mv("This command moves a file to the specified directory"),
     rm("This command removes a file from current directory"),
-    cat("This command prints a file data");
+    cat("This command prints a file data"),
+    exit("This command will terminate the program");
 
     private final String helpMessage;
 
