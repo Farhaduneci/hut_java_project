@@ -1,10 +1,5 @@
 package os;
 
-/*
-* Operating Systems Final Project
-* Farhad Uneci (Mohammed Sina) | 9708253 | Monday, August 3, 2020
-*/
-
 import java.util.Scanner;
 
 public class App {
