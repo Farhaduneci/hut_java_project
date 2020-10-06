@@ -41,6 +41,7 @@ public class Commands {
 
     private AnsiFormat infoMessage = new AnsiFormat(
         Attribute.YELLOW_BACK(),
+        Attribute.BLACK_TEXT(),
         Attribute.BOLD()
     );
 
